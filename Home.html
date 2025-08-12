@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>برنامه‌نویسی - Kiarix</title>
+  <link rel="stylesheet" href="Home.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="menu-icon-wrapper">
+        <i class="fas fa-bars" id="menu-toggle" title="منو"></i>
+      </div>
+      <a href="/" class="logo">Kiarix</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">خانه</a></li>
+          <li><a href="#">پروژه‌ها</a></li>
+          <li><a href="#">دسته‌بندی</a></li>
+          <li><a href="#">تماس با ما</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <i class="fas fa-search" title="جستجو"></i>
+        <i class="fas fa-user" title="کاربر"></i>
+      </div>
+      <div class="phone-number">
+        <i class="fas fa-phone" title="تلفن"> 021-65300645</i>
+      </div>
+    </div>
+  </header>
+
+  <!-- منوی فول اسکرین -->
+  <div id="full-screen-menu" aria-hidden="true">
+    <a href="Home.html">صفحه اصلی</a>
+    <a href="#">ثبت پروژه</a>
+    <a href="#">ثبت نام</a>
+    <a href="#">ورود</a>
+    <a href="#">دسته‌بندی‌ها</a>
+    <a href="#">پروژه‌ها</a>
+    <a href="#">خدمات فریلنسرها</a>
+    <a href="#">راهنما</a>
+    <a href="#">طرح عضویت</a>
+    <a href="#">آزمون‌ها</a>
+    <a href="#">نمونه کارها</a>
+  </div>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>انجام پروژه های برنامه نویسی</h1>
+      <p>لیست کامل پروژه‌های برنامه‌نویسی با فیلتر و جستجوی پیشرفته</p>
+    </div>
+  </section>
+
+  <section class="filters container">
+    <input type="text" id="search-input" placeholder="جستجو پروژه‌ها..." />
+    <select id="category-filter" aria-label="دسته‌بندی پروژه‌ها">
+      <option value="">همه دسته‌بندی‌ها</option>
+      <option value="frontend">فرانت‌اند</option>
+      <option value="backend">بک‌اند</option>
+      <option value="fullstack">فول‌استک</option>
+      <option value="mobile">موبایل</option>
+    </select>
+  </section>
+
+  <section class="projects container" id="projects-list">
+    <!-- پروژه‌ها با جاوااسکریپت پر میشن -->
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>
+        <i class="fas fa-location-dot"></i>
+        تهران زعفرانیه خیابان فلاحی سه راه آصف ساختمان مدرن زعفرانیه
+      </p>
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:kiarix@gmail.com" class="footer-link">Kiarix@gmail.com</a>
+      </p>
+      <p>
+        <i class="fab fa-instagram"></i>
+        <a href="https://instagram.com/karix" target="_blank" rel="noopener" class="footer-link">
+          Kiarix
+        </a>
+      </p>
+      <p>کیاریکس. با مدیریت بنیادی.</p>
+    </div>
+  </footer>
+
+  <script src="Home.js"></script>
+</body>
+</html>

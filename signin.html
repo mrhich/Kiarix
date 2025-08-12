@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ثبت نام کیاریکس</title>
+  <link rel="stylesheet" href="signin.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- ستون تصویر (حتمی: سمت چپ) -->
+    <aside class="left">
+      <div class="image-full" aria-hidden="true"></div>
+    </aside>
+
+    <!-- ستون فرم سمت راست -->
+    <section class="right">
+      <div class="form-wrap">
+
+        <div class="logo"><a href="test.html">K</a></div>
+
+        <h1>ثبت نام در 
+            <span class="highlight" ><a href="test.html">کیاریکس</a></span>
+        </h1>
+        <p class="lead">حساب خود را بسازید و در کمتر از چند دقیقه شروع کنید.</p>
+
+        <form id="signupForm" autocomplete="on" novalidate>
+          <div class="field">
+            <label for="phone">شماره تلفن</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="09123456789" required />
+          </div>
+
+          <div class="field">
+            <label for="password">رمز عبور</label>
+            <input id="password" name="password" type="password" placeholder="حداقل ۸ کاراکتر" minlength="8" required />
+          </div>
+
+          <div class="buttons">
+            <button type="submit" class="btn">ثبت نام</button>
+          </div>
+
+          <div class="terms">
+            با کلیک روی «ثبت نام» شما با <strong>قوانین و شرایط</strong> موافقید.
+          </div>
+          <div class="login-text">
+            <p>قبلا در کاریکس ثبت نام کردید؟</p>
+            <span>
+                <a href="login.html">ورود به کیاریکس</a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="signin.js"></script>
+</body>
+</html>

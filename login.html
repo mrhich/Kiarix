@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ورود کیاریکس</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- ستون تصویر (حتمی: سمت چپ) -->
+    <aside class="left">
+      <div class="image-full" aria-hidden="true"></div>
+    </aside>
+
+    <!-- ستون فرم سمت راست -->
+    <section class="right">
+      <div class="form-wrap">
+
+        <div class="logo"><a href="test.html">K</a></div>
+
+        <h1>ورود به
+            <span class="highlight" ><a href="test.html">کیاریکس</a></span>
+        </h1>
+
+        <form id="signupForm" autocomplete="on" novalidate>
+          <div class="field">
+            <label for="phone">ایمیل یا شماره تلفن حود را وارد کنید</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="09123456789" required />
+          </div>
+
+          <div class="field">
+            <label for="password">رمز عبور</label>
+            <input id="password" name="password" type="password" placeholder="رمز عبور خود را وارد کنید." minlength="8" required />
+          </div>
+
+          <div class="terms">
+            <a href=""><STrong>رمز عبور خود را فراموشی کردید؟!     فراموشی رمز عبور</STrong></a>
+        </div>
+
+          <div class="buttons">
+            <button type="submit" class="btn">ثبت نام</button>
+          </div>
+
+          <div class="login-text">
+            <p>کاربر جدید هستید؟</p>
+            <span>
+                <a href="signin.html">ثبت نام در کیاریکس</a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
